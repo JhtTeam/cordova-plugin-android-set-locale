@@ -9,10 +9,10 @@
     <engine name="cordova" version=">=3.4.0"/>
   </engines>
 
-  <asset src="www/cordovaAndroidSetLocale.js" target="js/CordovaAndroidSetLocale.js"/>
+  <asset src="www/cordovaAndroidSetLocale.js" target="js/cordovaAndroidSetLocale.js"/>
 
-  <js-module src="www/CordovaAndroidSetLocale.js" name="CordovaAndroidSetLocale">
-    <clobbers target="CordovaAndroidSetLocale" />
+  <js-module src="www/cordovaAndroidSetLocale.js" name="cordovaAndroidSetLocale">
+    <clobbers target="cordovaAndroidSetLocale" />
   </js-module>
 
   <platform name="android">
