@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="org.sorribas.cordova.android.locale"
+        id="conrdova-plugin-android-set-locale"
         version="0.7.0">
 
   <name>CordovaAndroidSetLocale</name>
@@ -12,7 +12,7 @@
   <asset src="www/cordovaAndroidSetLocale.js" target="js/cordovaAndroidSetLocale.js"/>
 
   <js-module src="www/cordovaAndroidSetLocale.js" name="cordovaAndroidSetLocale">
-    <clobbers target="cordovaAndroidSetLocale" />
+    <clobbers target="cordova.plugins.cordovaAndroidSetLocale" />
   </js-module>
 
   <platform name="android">
