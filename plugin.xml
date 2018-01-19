@@ -23,6 +23,9 @@
       </feature>
     </config-file>
 
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+      <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    </config-file>
     <source-file src="src/org/sorribas/cordova/android/locale/CordovaAndroidSetLocale.java" target-dir="src/org/sorribas/cordova/android/locale/"/>
   </platform>
 </plugin>
